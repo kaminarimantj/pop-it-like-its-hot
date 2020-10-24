@@ -1,0 +1,31 @@
+body {
+  background: cadetblue;
+}
+
+h1 {
+  color: maroon;
+}
+
+button {
+  background-color: black;
+  color:whitesmoke
+}
+
+p {
+  color: black
+}
+
+.modal {
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 50%;
+        width: 50%;
+        background-color: maroon;
+        visibility: hidden;
+    }
+
+    .show-modal {
+        opacity: 1;
+        visibility: visible; 
+    }
